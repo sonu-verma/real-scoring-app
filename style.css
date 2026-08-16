@@ -1,0 +1,19 @@
+body {
+    font-family: sans-serif;
+    padding: 20px;
+    background-color: #121212;
+    color: #ffffff;
+}
+#log {
+    background-color: #000000;
+    padding: 10px;
+    height: 300px;
+    overflow-y: scroll;
+    border: 1px solid #333;
+}
+.status-on {
+    color: #00ff00;
+}
+.status-off {
+    color: #ff0000;
+}
