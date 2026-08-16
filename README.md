@@ -8,6 +8,7 @@ Important Libries:
     npm install --save-dev @types/node @types/ws
     wscat - test to connect on local wscat.cmd -c ws://localhost:8080
 
+NEON: For postgres
 
 Web RTC:
     Voice Video P2P ()
@@ -57,3 +58,11 @@ What need to service:
         Rooms
         aknowledgement
         fallback
+
+
+npx neonctl@latest init
+
+
+Connect:  Pre-built prompt for connecting Node/TypeScript applications to Neon using Drizzle ORM.
+
+https://neon.com/docs/guides/drizzle

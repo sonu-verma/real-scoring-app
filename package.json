@@ -5,7 +5,10 @@
   "main": "src/index.js",
   "scripts": {
     "dev": "node --watch src/index.js",
-    "start": "node src/index.js"
+    "start": "node src/index.js",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate",
+    "crud": "tsx src/index.js"
   },
   "repository": {
     "type": "git",
@@ -20,11 +23,17 @@
   },
   "homepage": "https://github.com/sonu-verma/real-scoring-app#readme",
   "dependencies": {
+    "dotenv": "^17.4.2",
+    "drizzle-orm": "^0.45.2",
     "express": "^5.2.1",
+    "pg": "^8.23.0",
     "ws": "^8.21.3"
   },
   "devDependencies": {
     "@types/node": "^26.2.0",
-    "@types/ws": "^8.18.1"
+    "@types/pg": "^8.21.0",
+    "@types/ws": "^8.18.1",
+    "drizzle-kit": "^0.31.10",
+    "tsx": "^4.23.12"
   }
 }
